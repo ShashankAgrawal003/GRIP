@@ -1,17 +1,22 @@
 body{
 
     background-color: #41318D;
-    background-image: url("https://ak.picdn.net/shutterstock/videos/1019866207/thumb/1.jpg");
+    /* background-image: url("https://ak.picdn.net/shutterstock/videos/1019866207/thumb/1.jpg"); */
+    /* background-image: linear-gradient(to right top, #f2728e, #ed87b4, #e19dd2, #d4b3e6, #ccc6f0, #bed0f7, #b4daf8, #b1e2f5, #9ee6e9, #9de7d0, #b2e4b0, #d3dc94); */
     background-size: cover;
+    background-image: linear-gradient(to right top, #b3e7a7, #7ee0b9, #45d6d0, #06c8e4, #37b6ee, #3cb6ea, #40b6e7, #45b6e3, #53c5d1, #81d0bd, #afd7b1, #d8dcb4);
   }
   a {
     text-decoration: none;
   }
   #header {
-    background-color:#D83F87;
+    /* background-color:#D83F87;  commented by shanky to improve the UI*/  
    width:1000px;
-    height: 110px;
-    float:right;
+   
+    height: 110px; 
+ 
+    float:right; 
+    
     border-radius: 8px;
     opacity: 0.9;
   }
@@ -58,6 +63,7 @@ body{
   }
   #heading{
     display: flex;
+    
     text-align: center;
     justify-content: center;
   
@@ -65,7 +71,8 @@ body{
   
   }
   h1{
-    font-size: 75px;
+    
+    font-size:75px;
     font-family: 'Amatic SC', cursive;
     color: black;
   
