@@ -8,8 +8,8 @@
 body{
 	height: 100vh;
 	width: 100%;
-  background-image: url("https://ak.picdn.net/shutterstock/videos/1019866207/thumb/1.jpg");
-  background-size: cover;
+  	background-size: cover;
+  	background-image: linear-gradient(to right top, #b3e7a7, #7ee0b9, #45d6d0, #06c8e4, #37b6ee, #3cb6ea, #40b6e7, #45b6e3, #53c5d1, #81d0bd, #afd7b1, #d8dcb4);
 }
 
 .container{
@@ -29,7 +29,7 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("img/bg.jpg") no-repeat center;
+	
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -49,6 +49,11 @@ body{
 	background: url("https://lonylitical.github.io/tsf01/tsflogo.png") no-repeat center;
 	background-size: cover;
 	height: 100%;
+	margin-top:100px;
+	margin-bottom:50px;
+	margin-left:60px;
+	margin-right:40px;
+	padding:50px;
 }
 
 .right{
